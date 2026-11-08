@@ -1,0 +1,42 @@
+/* ul {
+   
+list-style-type: disc;
+list-style-type: square;
+list-style-type: number;
+list-style-type: bulet;
+list-style-type: upper-alpha;
+list-style-type: upper-roman;
+list-style-type: circle;
+list-style-type: decimal;
+list-style-type: decimal-leading-zero;
+list-style-type: georgian;
+list-style-type: none;
+
+
+list-style-image: url(hand.png);
+
+
+
+list-style-position: outside;
+margin: 0;
+padding: 0;
+
+list-style-position: inside;
+margin-left: 25px;
+
+} */
+
+ul {
+    background: tomato;
+   
+   list-style-position: inside;
+   padding: 25px;
+ }
+
+li {
+    background: violet;
+   padding: 5px;
+   border-bottom: 1px solid tomato;
+  
+  
+}
