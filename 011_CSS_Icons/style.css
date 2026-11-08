@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    columns: #fff;
+    padding: 10px;
+    font-size: 15px;
+}
+
+i {
+    color: #fff;
+    background-color: tomato;
+    padding: 15px;
+    font-size: 14px;
+    }
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+
+
+}
