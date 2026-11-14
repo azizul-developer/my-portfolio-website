@@ -1,0 +1,32 @@
+p {
+    color: blueviolet;
+}
+
+div p {
+    font-weight: bold;
+}
+
+div > p {
+    color: tomato;
+}
+
+div + p {
+    color: blue;
+}
+
+div ~ P {
+    color: aqua;
+}
+
+
+section + P {
+    color: green;
+}
+section ~ P {
+    color: green;
+}
+
+
+
+
+
