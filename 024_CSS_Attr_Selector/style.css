@@ -1,0 +1,47 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+a[target] {
+    text-decoration: none;
+    color: red;
+}
+
+a[target='_self'] {
+    color: gray;
+}
+
+a[title~='azizul'] {
+    color: aqua;
+    font-weight: bold;
+    font-size: 35px;
+}
+a[title~='developer'] {
+    color: purple;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+div[class|='child'] {
+    width: 300px;
+    height: 200px;
+    background: green;
+    margin-bottom: 5px;
+}
+
+div[class^='child'] {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 5px;
+    background-color: brown;
+}
+
+div[class$="ial"] {
+    background-color: #a29bfe;
+
+}
+div[class*="erv"] {
+    background-color: #fd79a8;
+
+}
