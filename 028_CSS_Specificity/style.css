@@ -1,0 +1,44 @@
+/*
+Selector                      Specificity Value             Calculation
+==========                    =================             ============
+p                             1                             1
+.para                        10                             10
+p.para                       11                             1+10
+.child p.para                21                             10+1+10
+#test                        100                            100
+#test p.para                 111                            100+1+10
+<p style="color: pink;">     1000                           1000
+*/
+
+body {
+   font-family:'poppins',sans-serif; 
+   margin: 0;
+}
+.child .para {
+    color:gray;
+}
+.child p.para {
+    color:black;
+}
+#test p {
+    color: blueviolet;
+}
+#test p.para {
+    color: beige;
+}
+#test p.para {
+    color: aqua;
+}
+
+h2.child style{
+    color: brown;
+}
+p.para{
+    color: red;
+    color: blue;
+}
+
+
+p {
+   color: yellow;
+    }
